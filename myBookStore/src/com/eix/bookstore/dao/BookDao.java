@@ -9,6 +9,8 @@ import com.eix.bookstore.web.CriteriaBook;
 import com.eix.bookstore.web.Page;
 
 public interface BookDao {
+
+
    Book getBook(int id);
    int getStoreNumber(int id);
    
