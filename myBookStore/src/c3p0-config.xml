@@ -4,8 +4,7 @@
 		<property name="user">user</property>
 		<property name="password">password</property>
 		<property name="driverClass">com.mysql.jdbc.Driver</property>
-		
-		<property name="jdbcUrl">jdbc:mysql:///bookstore</property>
+	<property name="jdbcUrl">jdbc:mysql:///bookstore</property>
 
 		<property name="acquireIncrement">5</property>
 		
