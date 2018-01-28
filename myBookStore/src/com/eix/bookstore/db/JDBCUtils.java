@@ -48,6 +48,7 @@ public class JDBCUtils {
 				e.printStackTrace();
 			}
 		}
+		
 		if(statement != null){
 			try {
 				statement.close();
