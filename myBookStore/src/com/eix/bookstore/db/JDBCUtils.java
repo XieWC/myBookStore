@@ -1,5 +1,4 @@
 package com.eix.bookstore.db;
-
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -24,7 +23,7 @@ public class JDBCUtils {
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-			throw new DBException("Êı¾İ¿âÁ¬½Ó´íÎó");
+			throw new DBException("æ•°æ®åº“è¿æ¥é”™è¯¯");
 		}
 	}
 	
@@ -35,7 +34,7 @@ public class JDBCUtils {
 			} catch (SQLException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
-				throw new DBException("Êı¾İ¿âÁ¬½Ó´íÎó");
+				throw new DBException("æ•°æ®åº“è¿æ¥é”™è¯¯");
 			}
 		}
 	}
@@ -55,7 +54,7 @@ public class JDBCUtils {
 			} catch (SQLException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
-				throw new DBException("Êı¾İ¿âÁ¬½Ó´íÎó");
+				throw new DBException("æ•°æ®åº“è¿æ¥é”™è¯¯");
 			}
 		}
 	}
