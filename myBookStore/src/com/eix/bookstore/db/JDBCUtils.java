@@ -14,6 +14,7 @@ public class JDBCUtils {
 	private static DataSource dataSource = null;
 	static {
 		dataSource = new ComboPooledDataSource("bookStore");
+		dataSource = new ComboPooledDataSource("bookStore");
 	}
 	
 	public static Connection getConnection(){
@@ -45,9 +46,9 @@ public class JDBCUtils {
 				rs.close();
 			} catch (SQLException e) {
 				// TODO Auto-generated catch block
+				e.printStackTrace();
 			}
 		}
-		
 		if(statement != null){
 			try {
 				statement.close();
