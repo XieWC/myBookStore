@@ -10,7 +10,7 @@ import com.eix.bookstore.exception.DBException;
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 
 public class JDBCUtils {
-
+//
 	private static DataSource dataSource = null;
 	static {
 		dataSource = new ComboPooledDataSource("bookStore");
